@@ -1,0 +1,25 @@
+Qty Value            Device                        Package              Parts                                 Description                                                                                   
+4   100R             RESISTOR0603                  R0603                R5, R7, R9, R11                                                                                                                     
+1   100nF            CAPC0603                      C0603                C4                                                                                                                                  
+1   100uF            CAPC0603                      C0603                C1                                                                                                                                  
+9   10K              RESISTOR0603                  R0603                R1, R2, R3, R4, R6, R8, R10, R12, R15                                                                                               
+1   1K               RESISTOR0603                  R0603                R13                                                                                                                                 
+4   1N4148WX-TP      DIODE1N4148WX-TP              SOD-323              D1, D2, D3, D4                                                                                                                      
+2   1uF              CAPC0603                      C0603                C2, C3                                                                                                                              
+4   2N7702P          MOSFET-NCHSOT23-3             SOT23-3              Q1, Q2, Q3, Q4                                                                                                                      
+1   500mA            PTC0ZCJ                       PTC-0ZCJ-1206        F5                                                                                                                                  
+1   AP2112K-3.3TRG1  REGULATOR-AP2112KK-SOT23-5    SOT23-5              U2                                                                                                                                  
+1   BOOT             TACT-SWITCHEVQ                TACT-SWITCH-EVQ      X1                                                                                                                                  
+1   ESP-12           ESP-12E                       ESP-12E              U1                                                                                                                                  
+4   FUSE             FUSETEAL                      FUSE-TEAL            F1, F2, F3, F4                        https://www.aliexpress.com/item/1005001704678944.html                                                                                              
+1   HEADER-FTDI232   HEADER-FTDI232                FTDI232-1X06         X4                                                                                                                                  
+1   IN               TERMINAL-1X02-5.08OSTTC022162 ONSHORE-OSTTC022162  J3                                    https://www.digikey.se/product-detail/sv/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558 
+4   MOUNTHOLE-PAD3.2 MOUNTHOLE-PAD3.2              3.2-PAD              H1, H2, H3, H4                                                                                                                      
+1   OUT1             TERMINAL-1X02-5.08OSTTC022162 ONSHORE-OSTTC022162  J1                                    https://www.digikey.se/product-detail/sv/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558 
+1   OUT2             TERMINAL-1X02-5.08OSTTC022162 ONSHORE-OSTTC022162  J2                                    https://www.digikey.se/product-detail/sv/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558 
+1   OUT3             TERMINAL-1X02-5.08OSTTC022162 ONSHORE-OSTTC022162  J4                                    https://www.digikey.se/product-detail/sv/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558 
+1   OUT4             TERMINAL-1X02-5.08OSTTC022162 ONSHORE-OSTTC022162  J5                                    https://www.digikey.se/product-detail/sv/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558 
+1   PINK             LED0603                       LED0603              D5                                    LED (Generic)                                                                                 
+1   RST              TACT-SWITCHEVQ                TACT-SWITCH-EVQ      X2                                    https://www.digikey.se/product-detail/sv/panasonic-electronic-components/EVQ-Q2Y03W/P12961SCT-ND/762951
+4   SRD-05VDC-SL-C   RELAYSRD-05VDC-SL-C           RELAY-SRD-05VDC-SL-C K1, K2, K3, K4                        https://www.aliexpress.com/wholesale?SearchText=SRD-05VDC-SL-C
+1   USB-MICRO-B-FCI  USB-MICRO-B-FCI               USB-MICRO-B-FCI      X3                                    https://www.digikey.se/product-detail/sv/amphenol-icc-fci/10118192-0001LF/609-4613-1-ND/2785378
