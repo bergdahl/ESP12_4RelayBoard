@@ -328,8 +328,8 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="9.55" y1="7.75" x2="-9.55" y2="7.75" width="0.127" layer="48"/>
 <pad name="C" x="-8.15" y="0" drill="1.2" diameter="2" thermals="no"/>
 <pad name="R1" x="-6.15" y="6" drill="1.2" diameter="2"/>
-<pad name="NO" x="6.05" y="6" drill="1.2" diameter="2" thermals="no"/>
-<pad name="NC" x="6.05" y="-6" drill="1.2" diameter="2" thermals="no"/>
+<pad name="NC" x="6.05" y="6" drill="1.2" diameter="2" thermals="no"/>
+<pad name="NO" x="6.05" y="-6" drill="1.2" diameter="2" thermals="no"/>
 <pad name="R2" x="-6.15" y="-6" drill="1.2" diameter="2"/>
 <wire x1="-10" y1="8" x2="10" y2="8" width="0.127" layer="21"/>
 <wire x1="10" y1="8" x2="10" y2="-8" width="0.127" layer="21"/>
@@ -534,8 +534,8 @@ Tactile Switch SPST-NO Top Actuated Surface Mount</description>
 <device name="SRD-05VDC-SL-C" package="RELAY-SRD-05VDC-SL-C">
 <connects>
 <connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NO" pad="NO"/>
+<connect gate="G$1" pin="NC" pad="NO"/>
+<connect gate="G$1" pin="NO" pad="NC"/>
 <connect gate="G$1" pin="R1" pad="R1"/>
 <connect gate="G$1" pin="R2" pad="R2"/>
 </connects>
@@ -2574,20 +2574,20 @@ package type OT</description>
 <attribute name="NAME" x="96.52" y="106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="96.52" y="99.822" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="83.82" y="127" smashed="yes">
-<attribute name="VALUE" x="83.82" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$3" gate="G$1" x="88.9" y="127" smashed="yes">
+<attribute name="VALUE" x="88.9" y="129.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U$4" gate="G$1" x="119.38" y="152.4" smashed="yes">
 <attribute name="VALUE" x="119.38" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$6" gate="G$1" x="187.96" y="127" smashed="yes">
-<attribute name="VALUE" x="187.96" y="129.794" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$6" gate="G$1" x="193.04" y="127" smashed="yes">
+<attribute name="VALUE" x="193.04" y="129.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$7" gate="G$1" x="187.96" y="76.2" smashed="yes">
-<attribute name="VALUE" x="187.96" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$7" gate="G$1" x="193.04" y="76.2" smashed="yes">
+<attribute name="VALUE" x="193.04" y="78.994" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$9" gate="G$1" x="83.82" y="76.2" smashed="yes">
-<attribute name="VALUE" x="83.82" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$9" gate="G$1" x="88.9" y="76.2" smashed="yes">
+<attribute name="VALUE" x="88.9" y="78.994" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="68.58" y="127" smashed="yes">
 <attribute name="VALUE" x="68.58" y="129.794" size="1.778" layer="96" align="bottom-center"/>
@@ -2871,30 +2871,30 @@ package type OT</description>
 </net>
 <net name="12V" class="0">
 <segment>
-<pinref part="K1" gate="G$1" pin="NO"/>
-<wire x1="83.82" y1="127" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="12V"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="152.4" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="12V"/>
 </segment>
 <segment>
-<pinref part="K3" gate="G$1" pin="NO"/>
-<wire x1="187.96" y1="124.46" x2="187.96" y2="127" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="12V"/>
+<pinref part="K1" gate="G$1" pin="NC"/>
+<wire x1="88.9" y1="127" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="K3" gate="G$1" pin="NC"/>
 <pinref part="U$6" gate="G$1" pin="12V"/>
+<wire x1="193.04" y1="124.46" x2="193.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K4" gate="G$1" pin="NO"/>
-<wire x1="187.96" y1="76.2" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="12V"/>
+<pinref part="K4" gate="G$1" pin="NC"/>
+<wire x1="193.04" y1="76.2" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K2" gate="G$1" pin="NO"/>
-<wire x1="83.82" y1="76.2" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="12V"/>
+<pinref part="K2" gate="G$1" pin="NC"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -3119,10 +3119,6 @@ package type OT</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,111.76,35.56,H1,MOUNT,,,,"/>
-<approved hash="101,1,119.38,35.56,H2,MOUNT,,,,"/>
-<approved hash="101,1,111.76,27.94,H3,MOUNT,,,,"/>
-<approved hash="101,1,119.38,27.94,H4,MOUNT,,,,"/>
 <approved hash="104,3,127,106.68,U2,VIN,N$6,,,"/>
 <approved hash="104,3,157.48,106.68,U2,OUT,3.3V,,,"/>
 <approved hash="104,3,35.56,104.14,X3,UGND,GND,,,"/>
