@@ -55,7 +55,7 @@ You will need a USB-Serial adapter for initial upload of the firmware, and use t
 
 ## Enclosure
 
-![Enclosure](images/IMG_1844.jpeg "Enclosure")
+![Enclosure](images/IMG_1860.jpeg "Enclosure")
 
 I designed a simple enclosure for 3D printing, available as STL files in the `Enclosure` folder. 
 
